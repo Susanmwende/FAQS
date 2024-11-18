@@ -5,7 +5,6 @@ const Footer = () => {
         <footer className="bg-[#644777] text-white py-4 md:py-8 px-4 md:px-24 w-full"> {/* Ensured full width and consistent background color */}
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
                 <div className="flex-1 mb-6 md:mb-0 text-left">
-                    {/* Adjusted logo width for better responsiveness */}
                     <img src="/images/logo.png" alt="Ubora CBC Logo" className='w-full max-w-[200px]' /> {/* Increased max-width for Nest Hub */}
                 </div>
 

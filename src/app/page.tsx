@@ -13,7 +13,6 @@ export default function Home() {
 
       {/* Main content area */}
       <main className="flex-grow bg-gray-50 pb-24"> {/* Added padding-bottom to prevent overlap with footer */}
-        <h1 className="text-3xl font-bold text-[#644777] mb-6 text-center">FAQS</h1>
         <Faq /> {/* Your FAQ component goes here */}
       </main>
 
